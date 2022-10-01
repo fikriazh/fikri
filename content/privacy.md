@@ -28,10 +28,6 @@ You have the right to receive information about the source, recipients and purpo
 
 Moreover, under certain circumstances, you have the right to demand the restriction of the processing of your personal data. For details, please consult the Data Protection Declaration under section „Right to Restriction of Data Processing.“
 
-</section>
-
-<section>
-
 ## General information and mandatory information
 
 ### Data protection
@@ -43,18 +39,6 @@ Whenever you use this website, a variety of personal information will be collect
 We herewith advise you that the transmission of data via the Internet (i.e. through e-mail communications) may be prone to security gaps. It is not possible to completely protect data against third party access.
 
 ### Information about the responsible party (referred to as the „controller“ in the GDPR)
-
-The data processing controller on this website is:
-
-<address>
-
-{{ author.givenName }} {{ author.familyName }}
-{{ author.address.streetAddress }}
-{{ author.address.postalCode }} {{ author.address.addressLocality }}<br>
-[{{ author.telephone }}][Phone]
-[{{ author.email }}][Email] ([PGP])
-
-</address>
 
 The controller is the natural person or legal entity that single-handedly or jointly with others makes decisions as to the purposes of and resources for the processing of personal data (e.g. names, e-mail addresses, etc.).
 
@@ -95,10 +79,6 @@ If you have restricted the processing of your personal data, these data – with
 
 We herewith object to the use of contact information published in conjunction with the mandatory information to be provided in section „Information Required by Law“ to send us promotional and information material that we have not expressly requested. The operators of this website and its pages reserve the express right to take legal action in the event of the unsolicited sending of promotional information, for instance via SPAM messages.
 
-</section>
-
-<section>
-
 ## Recording of data on our website
 
 ### Cookies
@@ -137,21 +117,3 @@ The processing of these data is based on Art. 6 para. 1 lit. b GDPR, if your req
 The data sent by you to us via contact requests remain with us until you request us to delete, revoke your consent to the storage or the purpose for the data storage lapses (e.g. after completion of your request). Mandatory statutory provisions - in particular statutory retention periods - remain unaffected.
 
 In case you want to send emails or files that include personal or important data it is recommended to encrypt them with Tobias Schmidt's public [PGP key][PGP].
-
-</section>
-
-<section>
-
-## Plug-ins and Tools
-
-N/A
-
-</section>
-
-<footer>
-
-_Updated {{ comp.dateTime({date: date}) | safe }}_
-
-</footer>
-
-{% include "links.njk" %}

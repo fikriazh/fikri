@@ -8,15 +8,11 @@ I play the Irish tin whistle---here I keep track of all the tunes I know. Each t
 
 I own [Collin Goldie] Low D, Low C, Low F, [Kerry Whistles] Chieftain V5 Low D and cheap retailer High D whistles.
 
-</section><section>
-
 ## Jigs
 
 -   😀 [Morrison's](https://thesession.org/tunes/71)
 -   😕 [The Kesh](https://thesession.org/tunes/55)
 -   😀 [The Three Sea Captains](https://thesession.org/tunes/147)
-
-</section><section>
 
 ## Slip Jigs
 
@@ -24,14 +20,10 @@ I own [Collin Goldie] Low D, Low C, Low F, [Kerry Whistles] Chieftain V5 Low D a
 -   🤔 [The Dusty Miller](https://thesession.org/tunes/28)
 -   🙂 [The Butterfly](https://thesession.org/tunes/10)
 
-</section><section>
-
 ## Polkas
 
 -   😕 [The Ballydesmond](https://thesession.org/tunes/239)
 -   😐 [Spanish Lady](https://thesession.org/tunes/1117)
-
-</section><section>
 
 ## Reels
 
@@ -42,14 +34,10 @@ I own [Collin Goldie] Low D, Low C, Low F, [Kerry Whistles] Chieftain V5 Low D a
 -   🤔 [The Green Fields Of Rossbeigh](https://thesession.org/tunes/322)
 -   🙂 [Cahir's Kitchen](https://thesession.org/tunes/1090)
 
-</section><section>
-
 ## Slides
 
 -   🤔 [Merrily Kissed The Quaker](https://thesession.org/tunes/70)
 -   🤔 [Cathleen Hehir’s](https://thesession.org/tunes/157)
-
-</section><section>
 
 ## Waltz
 
@@ -63,8 +51,6 @@ I own [Collin Goldie] Low D, Low C, Low F, [Kerry Whistles] Chieftain V5 Low D a
 -   🤔 [Caroline's Welcome](https://thesession.org/tunes/1055)
 -   😐 [Farewell To Spain / Spanish Ladies](https://thesession.org/tunes/6519)
 
-</section><section>
-
 ## Christmas
 
 -   🙂 O Little Town of Bethlehem
@@ -74,16 +60,10 @@ I own [Collin Goldie] Low D, Low C, Low F, [Kerry Whistles] Chieftain V5 Low D a
 -   🙂 Stille Nacht
 -   🙂 Schneeflöckchen
 
-</section><section>
-
 ## Other
 
 -   🙂 Herr Mannelig
 -   😐 Concerning Hobbits
-
-</section>
-
-<section>
 
 ---
 
@@ -96,7 +76,3 @@ I own [Collin Goldie] Low D, Low C, Low F, [Kerry Whistles] Chieftain V5 Low D a
 -   The Search
 -   The Old Church of Kilronan
 -   Der Tod Mit seinem schnellen Pfeil
-
-</section>
-
-{% include "links.njk" %}

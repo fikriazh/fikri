@@ -6,8 +6,6 @@ layout: page
 
 On this page you will find what Hardware and Software I am currently using. I use a very minimalistic setup so my list is quite short.
 
-</section><section>
-
 ## Hardware
 
 **MacBook Air M1 2020 16GB** is my main driver. It has amazing performance, lasts all day long and is super lightweight. I do not use an external monitor as I love the constraint of needing to use one screen. My MacBook wanders between my kitchen table, a shelf that I misuse as a standing desk and my couch. I elevate it to eye level for improved ergonomics using a paper box and a book about baking. I hope I will find a nice looking stand at one point that has the perfect height.
@@ -19,8 +17,6 @@ On this page you will find what Hardware and Software I am currently using. I us
 **Pixel 3A** is my only smartphone. It was cheap, has good battery life, an ok display and an amazing camera. I want to upgrade at some point for a better display as I read a lot on my smartphone.
 
 **Google Homepod** is my main Kitchen radio. It came for free with my Google Pixel 3A. I dislike the idea of having a microphone in my personal space at all times, but it is perfect as a kitchen radio.
-
-</section><section>
 
 ## Software
 
@@ -38,10 +34,4 @@ On this page you will find what Hardware and Software I am currently using. I us
 
 **Chrome, Safari and Firefox** are all in use for testing purposes. I would love to use Safari as my primary browser. Unfortunately the developer console, extensions and reliability can't compare to Chrome, so I tend to fall back to Chrome every time I try something else. My default extensions are Adblock Plus, Distraction-Free YouTube and Grammarly. This combination makes browsing the web just 100% better.
 
-</section><footer>
-
 _Check out [uses] to learn more about the "/uses/" page. Updated {{ comp.dateTime({date: date}) | safe }}_
-
-</footer>
-
-{% include "links.njk" %}

@@ -6,8 +6,6 @@ layout: page
 
 Following you will find a collection of technology related quotes that inspire me. I just started to assemble this list and will extend it whenever I find a nice addition.
 
-</section><section>
-
 <figure>
 
 > Technology is best when it brings people together.
@@ -21,11 +19,8 @@ My favourite type of technology brings people together. Music, cinemas, phones, 
 
 </figure>
 
-</section>
 
 ---
-
-<section>
 
 <figure>
 
@@ -40,11 +35,7 @@ We tend to try to solve everything with technology. But technology can only do w
 
 </figure>
 
-</section>
-
 ---
-
-<section>
 
 <figure>
 
@@ -59,11 +50,7 @@ What a beautiful approach to product development. I have experienced many cases 
 
 </figure>
 
-</section>
-
 ---
-
-<section>
 
 <figure>
 
@@ -78,11 +65,7 @@ This quote reminds me that information and data is everywhere with the internet.
 
 </figure>
 
-</section>
-
 ---
-
-<section>
 
 <figure>
 
@@ -96,5 +79,3 @@ Great quote that reminds me of the importance to never complain and always try t
 </figcaption>
 
 </figure>
-
-</section>

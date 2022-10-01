@@ -10,10 +10,6 @@ One of the most crucial elements of the success of the web was its open nature. 
 
 On this page, you can find my sources of inspiration, and background information on my build process and design.
 
-</section>
-
-<section>
-
 ## Design
 
 The more I work with the web, the more I realise that websites are about their content and offerings---design then helps to make this content accessible and enjoyable. Unfortunately, many websites focus on complex design to trigger a "wow" effect.
@@ -30,8 +26,6 @@ I implemented a monochrome colour scheme with a light and dark mode that reacts 
 
 I use the open-source font [Inter] that provides a tasteless experience similar to the default fonts of most operating systems but allows me to provide optimised typography across all platforms. Default system fonts have many advantages, but they have slightly different sizes and characteristics per platform which makes it difficult to find optimal settings for line height and tracking. Inter allows me to tune those crucial settings once for all platforms. Additionally, Inter offers many features like monospace numbers for tables. I only use two font-weights and a single font-size---inspired by the website of [cmhb.de](https://cmhb.de/). The font size is bound to the width of the browser and thus scales on larger devices. This helps with readability on TVs, projectors and other large scale devices. The website also respects the font size and zoom settings of your browser settings.
 
-</section><section>
-
 ## Coding
 
 I create this site with the static site generator [Lume]. No frameworks are used, everything is built-in simple templating languages that are compiled to pure HTML, CSS and JS. Assets, CSS and JS are directly processed via Lume so that I am able to have simple DX features like splitting CSS components into many files. I implemented more extensions that allow me to write blog posts with rich typography in Markdown.
@@ -43,7 +37,6 @@ I avoided usage of CSS classes for styling where possible, relying on the natura
 The website offers optimised [Schema] metadata for site, page, article and author information. I furthermore included [Open Graph] and [Twitter Card] meta tags that provide optimised previews when links of this site are shared in social networks. I still need to find a way to create automatic images for my blog posts as I do not have a suitable image all the time. _(PS: I am a `<meta>` tag nerd---let me know if I forgot some.)_
 
 Content images are lazy-loaded with the native `loading="lazy"` feature of browsers to reduce the initial payload of all sites. I do provide the width and height of images where possible to avoid layout shifts when the images are loaded. This plus many optimisations allow reaching awesome load performance. I hope Lume will get an image plug-in to further optimise images with many image sizes for different screens in the future.
-</section><section>
 
 ## Hosting
 
@@ -51,12 +44,4 @@ This site is hosted on a [Hetzner] server. The connection is encrypted with a TL
 
 The source code is open-source on [GitHub](https://github.com/tobiasschmidt89/tobiasschmidt.me). I use a custom [GitHub Action](https://github.com/tobiasschmidt89/tobiasschmidt.me/blob/main/.github/workflows/deploy-site.yml) to build and deploy the website on my Hetzner server whenever I push commits with a new tag. This allows me to decide when I want to actually update the site.
 
-</section>
-
-<footer>
-
 _Please [let me know][Email] in case you have any questions about how I created this site to give you more details. Also in case you are interested in starting your own personal website, you can reach out to me in case you have some technical topics you need help with._
-
-</footer>
-
-{% include "links.njk" %}

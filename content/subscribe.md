@@ -9,8 +9,6 @@ In case you like the content on this website I offer the following ways for you 
 -   [Blog RSS Atom Feed](/feed.xml)
 -   [Blog JSON Feed](/feed.json)
 
-</section><section>
-
 ## What is a Feed?
 
 [RSS] ([Atom]) and [JSON] are technologies to get updates from websites without visiting the site itself. They are used to receiving the latest news from a news site, or blog posts from a blog. The updates are listed in a “feed” which can be syndicated (synced) from the website to a “feed reader”.
@@ -18,8 +16,6 @@ In case you like the content on this website I offer the following ways for you 
 A feed usually contains a list of posts each with its date, title, author and content. Sometimes the content is an excerpt, encouraging you to read the rest of the content on the original site. An excerpt can defeat the point of providing a feed, where a big benefit is that the reader can customise how the posts display in their feed reader to improve their reading experience.
 
 Feeds usually use .xml or .json file formats. For example, this site’s full RSS feed is available at [{{ site.url }}feed.xml]({{ site.url }}feed.xml) and [{{ site.url }}feed.json]({{ site.url }}feed.json). Browsers won’t render RSS in a readable way and you need a feed reader.
-
-</section><section>
 
 ## What is a Feed Reader?
 
@@ -34,10 +30,4 @@ A feed reader is a service or app that collects feeds you’ve subscribed to and
 -   [Fraidycat (Firefox and Chrome)](https://fraidyc.at/)
 -   [Feedly (Web, iOS, macOS, Android)](https://feedly.com/)
 
-</section><footer>
-
 _Contents of this site are based on [Laura Kalbag's subscribe page](https://laurakalbag.com/subscribe/) [(license)](https://creativecommons.org/licenses/by-sa/4.0/)._
-
-</footer>
-
-{% include "links.njk" %}

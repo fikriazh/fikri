@@ -49,10 +49,6 @@ body > footer {
     padding-block-start: var(--gutter);
 }
 
-body > footer a {
-    text-decoration: none;
-}
-
 body > footer :last-child {
     grid-column: 1 / -1;
 }

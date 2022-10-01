@@ -93,5 +93,3 @@ Beside these manual configurations the server has some other configuration that 
 
 - Disabled Server Logs
 - Redirects
-
-</section>
