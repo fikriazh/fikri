@@ -1,0 +1,11 @@
+baseURL = 'https://fikriazh.my.id/'
+title = 'Mahasemesta'
+
+[markup.goldmark.renderer]
+unsafe = true
+
+disableKinds = [ "taxonomy", "taxonomyTerm", "RSS", "robotsTXT", "sitemap" ]
+
+[params]
+keywords = "mahasemesta, semesta, oracle, spiritual"
+author = "Fikri Azhar Novianto"

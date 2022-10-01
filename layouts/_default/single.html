@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+<!-- Content -->
+<article>
+
+    <header>
+        <h1><a href="/" title="Go to homepage">{{ .Title }}</a></h1>
+        <p>{{ .Params.Date.Format "Friday, 2 January 2006" }}</p>
+    </header>
+
+    <blockquote>
+        <p>{{ .Params.description }}</p>
+    </blockquote>
+    
+    <section>
+    {{ .Content }}
+    </section>
+
+</article>
+
+{{ end }}
+
+{{ define "nav" }}
+    {{ partial "nav" . }}
+{{ end }}

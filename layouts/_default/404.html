@@ -1,0 +1,12 @@
+{{ define "main" }}
+
+<header>
+    <h1><a href="/">{{ .Title }}</a></h1>
+    <p>{{ .Params.description }}</p>
+</header>
+
+<section>
+    {{ .Content }}
+</section>
+
+{{ end }}

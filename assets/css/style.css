@@ -1,0 +1,54 @@
+/* hr toc */
+div > a {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a > time {
+    margin: 0;
+}
+
+a > hr {    
+    flex: 1 0 1rem;
+    margin: 0 10px;
+}
+
+div > a:hover {
+    color: var(--on-canvas--dim); ;
+}
+
+a:hover hr {
+    border-bottom: 1px solid rgba(112, 112, 112, 0.933);
+}
+
+/* my style */
+
+main > footer {
+    margin: 0;
+}
+
+p.month {
+    margin-top: 15px;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+
+.older {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.newer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}

@@ -1,0 +1,15 @@
+<section>
+    {{ with .Site.GetPage "section" "blog" }}{{ .Content }}{{ end }}
+    <nav>
+        <div>
+            {{- range first 3 (where .Site.RegularPages "Section" "=" "blog") -}}
+            <a href="{{ .Permalink }}">
+                <span>{{ .Title }}</span>
+                <hr>
+                <time>{{ .Params.date.Format "2 Jan" }}</time>
+            </a>
+            {{- end -}}
+        </div>
+    </nav>
+    <a href="/blog">More stories ...</a>
+</section>
