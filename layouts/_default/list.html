@@ -12,11 +12,10 @@
     <nav>
         <div>
             {{ range .Pages.GroupByDate "2006" }}
-            <time class="group">
-            <p class="year">{{ .Key }}</p>
+            <time class="year">{{ .Key }}</time><br/>
             {{ range .Pages.GroupByDate "January" }}
-            <p class="month">{{ .Key }}</p>                
-            </time>
+            <time class="month">{{ .Key }}</time>                
+
                     {{- range .Pages -}}
                     <a href="{{ .Permalink }}">
                         <span>{{ .Title }}</span>
@@ -28,6 +27,8 @@
             {{ end }}
         </div>
     </nav>
+
+    <p>{{ .Params.epilog }}</p>
 
 </article>
 

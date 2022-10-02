@@ -1,12 +1,27 @@
 {{ define "main" }}
 
-<header>
-    <h1><a href="/">{{ .Title }}</a></h1>
-    <p>{{ .Params.description }}</p>
-</header>
+<article>
 
-<section>
+    <header>
+        <h1><a href="/" title="Go to homepage">{{ .Title }}</a></h1>
+        <p>{{ .Params.description }}</p>
+    </header>
+    
+    <section>
     {{ .Content }}
-</section>
+    </section>
+
+</article>
+
+{{ end }}
+
+{{ define "footer" }}
+
+<footer>
+    
+    <a href="mailto:fikriazh@gmail.com" rel="next">@ Mail me</a>
+    <a href="/" rel="prev">Homepage</a>
+
+</footer>
 
 {{ end }}

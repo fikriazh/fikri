@@ -16,10 +16,16 @@
     {{ .Content }}
     </section>
 
+    <section>
+        <p>Thanks for reading this article so far, you are currently reading <i>"{{ .Title }}"</i> in <a href="{{ .CurrentSection.Permalink }}">{{ .CurrentSection.Title }}</a> section. This article is published on {{ .Params.Date.Format "Friday, 2 January 2006" }} by <a href="https://instagram.com/fikzhry" target="_blank">{{ .Site.Params.author }}</a> with {{ math.Round (div (countwords .Content) 220.0) }} minutes reading time.</p>
+            
+        <p>From here you could <a href="#">⯅ go to top</a> or perhaps <a href="/">⌂ go to homepage</a> and take a look to our other writing with below.</p>
+    </section>
+
 </article>
 
 {{ end }}
 
-{{ define "nav" }}
-    {{ partial "nav" . }}
+{{ define "footer" }}
+    {{ partial "footer" . }}
 {{ end }}

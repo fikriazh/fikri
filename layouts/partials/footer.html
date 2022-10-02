@@ -1,17 +1,17 @@
 {{- if or .PrevInSection .NextInSection -}}
 
-<footer {{ if not .NextInSection }}style="justify-content:flex-end"{{ end }}>
+<footer>
     
    {{ with .NextInSection }}
-    <div class="newer">
-        <p>Newer</p>
+    <div>
+        <p>‹ Previous</p>
         <a href="{{ .Permalink }}" rel="next">{{ .Title }}</a>
     </div>
     {{ end }}
 
     {{ with .PrevInSection }}
-    <div class="older">
-        <p>Older</p>
+    <div>
+        <p>Next ›</p>
         <a href="{{ .Permalink }}" rel="prev">{{ .Title }}</a>
     </div>
     {{ end }}

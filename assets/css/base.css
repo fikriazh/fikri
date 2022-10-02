@@ -30,7 +30,7 @@ body > main,
 article {
     display: grid;
     grid-template-columns: minmax(0, 1fr);
-    gap: var(--gutter);
+    gap: var(--gap);
 }
 
 :is(main, article) :is(section, aside, footer) {
@@ -46,7 +46,7 @@ body > footer {
     justify-content: space-between;
 
     border-block-start: var(--border);
-    padding-block-start: var(--gutter);
+    padding-block-start: var(--gap);
 }
 
 body > footer :last-child {

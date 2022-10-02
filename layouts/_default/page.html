@@ -1,6 +1,5 @@
 {{ define "main" }}
 
-<!-- Content -->
 <article>
 
     <header>
@@ -12,26 +11,17 @@
     {{ .Content }}
     </section>
 
-    <nav>
-        <div>
-            {{ range .Pages.GroupByDate "2006" }}
-            <time class="group">
-            <p class="year">{{ .Key }}</p>
-            {{ range .Pages.GroupByDate "January" }}
-            <p class="month">{{ .Key }}</p>                
-            </time>
-                    {{- range .Pages -}}
-                    <a href="{{ .Permalink }}">
-                        <span>{{ .Title }}</span>
-                        <hr>
-                        <time>{{ .Params.date.Format "2" }}</time>
-                    </a>
-                    {{- end -}}
-            {{ end }}
-            {{ end }}
-        </div>
-    </nav>
-
 </article>
+
+{{ end }}
+
+{{ define "footer" }}
+
+<footer>
+    
+    <a href="#" rel="next">Go to Top</a>
+    <a href="/" rel="prev">Homepage</a>
+
+</footer>
 
 {{ end }}

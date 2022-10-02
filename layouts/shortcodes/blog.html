@@ -1,5 +1,4 @@
 <section>
-    {{ with .Site.GetPage "section" "blog" }}{{ .Content }}{{ end }}
     <nav>
         <div>
             {{- range first 3 (where .Site.RegularPages "Section" "=" "blog") -}}

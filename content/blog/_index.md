@@ -1,6 +1,7 @@
 ---
 title: Blog
-description: I wanna write all off universe told.
+description: I write what universe told his secret.
+epilog: As the Creator of All comfortly plays the game as us.
 ---
 
-The stories worth to be known, listed on [Blog](/blog) section, contains of my journey through the game of the Creator of All :
+> Through all of journey of my soul, in the dar knight through the abyss of life. Here I tell you progress passed by as weird energies always intertwined to physical dimension. Are they exist outside there?
