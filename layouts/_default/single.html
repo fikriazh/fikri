@@ -16,16 +16,32 @@
     {{ .Content }}
     </section>
 
-    <section>
-        <p>Thanks for reading this article so far, you are currently reading <i>"{{ .Title }}"</i> in <a href="{{ .CurrentSection.Permalink }}">{{ .CurrentSection.Title }}</a> section. This article is published on {{ .Params.Date.Format "Friday, 2 January 2006" }} by <a href="https://instagram.com/fikzhry" target="_blank">{{ .Site.Params.author }}</a> with {{ math.Round (div (countwords .Content) 220.0) }} minutes reading time.</p>
-            
-        <p>From here you could <a href="#">⯅ go to top</a> or perhaps <a href="/">⌂ go to homepage</a> and take a look to our other writing with below.</p>
-    </section>
-
 </article>
 
 {{ end }}
 
 {{ define "footer" }}
-    {{ partial "footer" . }}
+
+    {{- if or .PrevInSection .NextInSection -}}
+
+        <footer>
+            
+            {{ with .NextInSection }}
+                <div>
+                    <p>‹ Previous</p>
+                    <a href="{{ .Permalink }}" rel="next">{{ .Title }}</a>
+                </div>
+            {{ end }}
+
+            {{ with .PrevInSection }}
+                <div>
+                    <p>Next ›</p>
+                    <a href="{{ .Permalink }}" rel="prev">{{ .Title }}</a>
+                </div>
+            {{ end }}
+
+        </footer>
+
+    {{ end }}
+
 {{ end }}
