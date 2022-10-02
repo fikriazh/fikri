@@ -72,3 +72,32 @@ section.epilog > p {
     padding: 0 15px;
     font-size: 15px;
 }
+
+#blog {
+    margin: 0;
+}
+
+#brief {
+    margin-top: -20px;
+}
+
+#more {
+    margin-top: 20px;
+}
+
+figure {
+    margin-top: 10px;
+}
+
+figure > img {
+    border-radius: 10px;
+}
+
+figcaption {
+    font-size: 15px;
+}
+
+div > iframe {
+    border-radius: 10px;
+    margin: 10px 0;
+}
