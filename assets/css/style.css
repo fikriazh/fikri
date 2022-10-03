@@ -97,7 +97,20 @@ figcaption {
     font-size: 15px;
 }
 
-div > iframe {
+iframe {
     border-radius: 10px;
     margin: 10px 0;
+}
+
+audio {
+    width: 100%;
+    height: 40px;
+}
+
+#blogblog {
+    margin: 0;
+}
+
+h2#blogblog > a:hover {
+    border-bottom: 1px solid rgba(112, 112, 112, 0.933);
 }

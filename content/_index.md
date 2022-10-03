@@ -5,7 +5,7 @@ description: The journey of my life.
 
 *An engineer at heart with a business value-driven mindset.* I currently work at the intersection of online marketing, business intelligence and marketing automation to enable companies to deliver dependable, personalised and profitable digital experiences to their customers.
 
-## Blog
+## [Blog](/blog)
 List of stories that should be known, contains many of my journey through the game of the Creator of All :
 {{< blog >}}
 

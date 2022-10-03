@@ -4,6 +4,8 @@ description: Wouldn't be easy, that's for sure.
 date: 2022-10-01
 ---
 
+In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a hobbit hole, and that means comfort.
+
 Finding the truth wouldn't be easy, that's for sure. Then there was the question of whether or not Jane really wanted to know the truth. That's the thing that bothered her most. It wasn't the difficulty of actually finding out what happened that was the obstacle, but having to live with that information once it was found.
 
 {{< figure "https://picsum.photos/800/800" "Picture is worth more than thousand words." >}}
