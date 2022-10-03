@@ -1,15 +1,15 @@
 ---
 title: Mahasemesta
-description: The journey of my life.
+description: Let's hear me tell these journey.
 ---
 
-*An engineer at heart with a business value-driven mindset.* I currently work at the intersection of online marketing, business intelligence and marketing automation to enable companies to deliver dependable, personalised and profitable digital experiences to their customers.
+Hi, dear universe's fellow. Mahasemesta is a codename used to tell my spiritual stories, means the vastness of the universe.
 
 ## [Blog](/blog)
-List of stories that should be known, contains many of my journey through the game of the Creator of All :
+Story that might be known, journey through the game of universe :
 {{< blog >}}
 
 ## Brief
-I am interested in meeting new people, learning new things. Please consider [subscribing](/subscribe/) to my feed and to learn more about me you can check out my [profile](/profile/), [now](/now/) and [uses](/uses/) pages.
+I'm an Indonesian drilling fluid engineer, working remotely in harsh onshore oil-field industry, toil for oil. That's my formal life, kind of boring template money heist worker (even likely called energy warrior).
 
-You can find an overview of all modules I use across the website in my [Styleguide](/styleguide/). Check out my [Colophon](/about/) to learn how I created this site. In the [Privacy Policy](/privacy/) and The [Legal Notice](/legal/), you will find information on how this website handles your data.
+Meanwhile in the other side, I like to tell my spiritual stories, a journey in finding true meaning of this universe. Is there any rulers behind this all? I try not to believe, even think all of this merely an random abstract life, but why do I always got synchronized code 411?

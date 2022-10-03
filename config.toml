@@ -1,6 +1,5 @@
 baseURL = 'https://fikri.pages.dev/'
 title = 'Mahasemesta'
-enableGitInfo = true
 
 [markup.goldmark.renderer]
 unsafe = true

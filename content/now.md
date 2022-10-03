@@ -1,6 +1,6 @@
 ---
-title: Now
-description: What Im currently doing
+title: Nowdays
+description: Here is how currently I live
 layout: page
 ---
 
