@@ -12,4 +12,4 @@ Story that might be known, journey through the game of universe :
 ## Brief
 I'm an Indonesian drilling fluid engineer, working remotely in harsh onshore oil-field industry, toil for oil. That's my formal life, kind of boring template money heist worker (even likely called energy warrior).
 
-Meanwhile in the other side, I like to tell my spiritual stories, a journey in finding true meaning of this universe. Is there any rulers behind this all? I try not to believe, even think all of this merely an random abstract life, but why do I always got synchronized code 411?
+Meanwhile in the other side, I like to tell my spiritual stories, a journey in finding true meaning of this universe. Is there any rulers behind this all? I try not to believe, even think all of this is merely random abstract life, but why do I always got synchronized code 411?

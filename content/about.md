@@ -1,47 +1,35 @@
 ---
-title: Colophon
-description: About this website
+title: Monolog
+description: Expanding my self
 layout: page
 ---
 
-tobiasschmidt.me is my personal website. I use it to share personal thoughts, document what I learned, plant some digital seeds, and host some unique content I want to share for particular reasons. Even so, I tend to write about my profession I try to keep the tone personal on this site.
+My name is Fikri Azhar Novianto and this is my personal website. I use it to share personal thoughts, document what I learned, plant some digital seeds, and host some unique content I want to share for particular reasons. Even so, I tend to write about my profession I try to keep the tone personal on this site.
 
-One of the most crucial elements of the success of the web was its open nature. If you want to know how a website is built you can pretty much inspect all source code with a simple `right-click > view source` in a readable way. Furthermore, many web participants share their experience and knowledge of the web to inspire others. Thus I am happy to be part of this open web with my small blog.
+{{< figure "/image/selfies.jpg" "It's me on the Cemara oil-field (Indramayu - West Java - ID ), taken on 23 May 2022. It's such a great opportunity to be part of this drilling operational team." >}}
 
-On this page, you can find my sources of inspiration, and background information on my build process and design.
+I was born on Pangandaran (West Java - ID) on Wednesday, 30<sup>th</sup> November 1994 at 08.15 AM UTC+7. I grew up in a rural environment with limited acces for information (on year 2000 when internet is growing), far from book store and elementary school with very limited book collection. So, main input for brain is from television, I still remember how boring to change TV channel and nothing good enough to be watched except on sunday morning for cartoon show. When graduated from elementary school, I buy my first computer and install cable internet, that was milestone for me as that time I can open world windows, even on the village environment.
 
-## Design
+Short story, I continue studying bachelor degree in UPN Veteran Yogyakarta and I choose Geological Engineering department. Now, I'm working as a drillinjg fluid engineer in oil & gas industry. Enough for the brief autobiography, the details can be find in my blog.
 
-The more I work with the web, the more I realise that websites are about their content and offerings---design then helps to make this content accessible and enjoyable. Unfortunately, many websites focus on complex design to trigger a "wow" effect.
+## Connect
 
-But this comes at huge maintenance costs and content creation efforts. This is something I am not able to afford for a personal website. Thus my website is bare-bone, simple, minimalist, brutalist, purist, or whatever you want to call a site that is simple to handle.
+If any things need to be talked to me, please regardly reach me directly through 📞 [WhatsApp](https://wa.me/6281226594717), visit my digital gallery on 📷 [Instagram](https://instagram.com/fikzhry) or perhaps through 📧 [Email](mailto:fikriazh@gmail.com). I also have 🎶 [TikTok](https://tiktok.com/@mahasemesta) for publishing my short dailiy vlog. Let's discuss about this universe, or maybe just a little talking and a cup of cofee.
 
-My website features a simple blogging layout inspired by [manuelmoreale.com](https://manuelmoreale.com/), [matthewsmith.website](https://matthewsmith.website/), [cmhb.de](https://cmhb.de/), [frankchimero.com](https://frankchimero.com/) and many more. A single centred column resembles documents like Email and Docx we know. I try to follow [the webs grain](https://frankchimero.com/blog/2015/the-webs-grain/) and follow the vertical scrolling behaviour we learned to love.
+## Website
 
-On most websites, I often play around with the top menu before I read the first line of the actual content. Then I might be lost clicking through the pages of the site instead of reading the content I was interested in. Thus my website does not feature top navigation (often called burger navigation in web jargon). I did also avoid any sidebars, teasers or other elements that could introduce distractions throughout the reading experience. Visitors should be able to enjoy content _as is_ instead of being overloaded with other content.
+Framework in this website uses [Hugo](https://gohugo.io/) SSG (Static Site Generator)  with design from [Tobias Schmidt](http://tobiasschmidt.me/) (Thanks for permitting me to port from Lume to Hugo) and edited some layout necessary, but the main design is still same (I love the purist, brutalist and minimalist style).
 
-Instead, my website features old-school footer navigation with next and previous articles and a link to the homepage. The homepage offers a list of available links in long-form content. I hope this will help new visitors as an introduction to the site. Additionally, it is possible to go to the index page that lists all posts by clicking the page title. I am still undecided if I want to feature the newest post on the homepage like [manuelmoreale.com](https://manuelmoreale.com/). I like that I can leave Manu's site on one tab, refresh it every now and then to read his updates.
+Deployment, hosting and all data is stored on [Github](https://github.com/fikriazh/fikri) and connected to [Cloudflare Pages](https://pages.cloudflare.com/) as Hugo deployment and processing to Static Site. This site also connected to headless cloud CMS using [Forestry.io](https://forestry.io/).
 
-I implemented a monochrome colour scheme with a light and dark mode that reacts to the system settings of your operating system via CSS media queries. I decided to not provide a manual theme switcher as this would require setting a cookie or local storage on your browser. This is something I avoid to leave a minimal footprint on your system.
+Domain [fikri.pages.dev](/), free domain from Cloudflare Pages as it's offer free HTTPS access.
 
-I use the open-source font [Inter] that provides a tasteless experience similar to the default fonts of most operating systems but allows me to provide optimised typography across all platforms. Default system fonts have many advantages, but they have slightly different sizes and characteristics per platform which makes it difficult to find optimal settings for line height and tracking. Inter allows me to tune those crucial settings once for all platforms. Additionally, Inter offers many features like monospace numbers for tables. I only use two font-weights and a single font-size---inspired by the website of [cmhb.de](https://cmhb.de/). The font size is bound to the width of the browser and thus scales on larger devices. This helps with readability on TVs, projectors and other large scale devices. The website also respects the font size and zoom settings of your browser settings.
+My workflow in this site : Input or writing on local cloned repo, edit my markdown content file with VS Code editor  and then push the commit directly to github. Another input workflow is through smartphone with cloud forestry.io cloud CMS. I use this methode usually when in remote area as I unable acces notebook, so I open the CMS through smartphone web browser. Forestry.io will monitor the changes and automatically push to github. I usually write and arrange the content on smartphone notes first then paste to forestry.io CMS.
 
-## Coding
+If github repo detect any commit and push etiher from local cloned repo or from forestry.io, it will trigger deployment on Cloudflare Pages server and create static site to be served to fikri.pages.dev domain. This simplistic and automatic workflow makes me focus on content making rather than thinking the tech bla bla bla behind the scene.
 
-I create this site with the static site generator [Lume]. No frameworks are used, everything is built-in simple templating languages that are compiled to pure HTML, CSS and JS. Assets, CSS and JS are directly processed via Lume so that I am able to have simple DX features like splitting CSS components into many files. I implemented more extensions that allow me to write blog posts with rich typography in Markdown.
+## Epilog
 
-The website uses an HTML-first approach that optimises semantics where possible. The site works fine with deactivated CSS and/or JavaScript. If things are not available as an HTML element I plan to use web components to create custom elements that resolve the task.
+Thanks for so far reading until this end section, hope you get much of knowledge and information from my own perspective. Keep finding the truth, the system works behind this dimensional barrier. As we will keep evolving to *Homo Deus*, the human with 100% DNA function as our creator Enki Anunnaki imprint to us.
 
-I avoided usage of CSS classes for styling where possible, relying on the natural style cascade. Using semantic selectors (e.g. `a[rel="home"]` vs. `a.home`) is a nice way to stay content first as every design consideration is somehow reflected in the content. I imagine this was the early intention of CSS until we started to build more and more complex layouts. Anyway, this restriction forced me to stay very streamlined on the features of the site. And _I guess I am a purist._
-
-The website offers optimised [Schema] metadata for site, page, article and author information. I furthermore included [Open Graph] and [Twitter Card] meta tags that provide optimised previews when links of this site are shared in social networks. I still need to find a way to create automatic images for my blog posts as I do not have a suitable image all the time. _(PS: I am a `<meta>` tag nerd---let me know if I forgot some.)_
-
-Content images are lazy-loaded with the native `loading="lazy"` feature of browsers to reduce the initial payload of all sites. I do provide the width and height of images where possible to avoid layout shifts when the images are loaded. This plus many optimisations allow reaching awesome load performance. I hope Lume will get an image plug-in to further optimise images with many image sizes for different screens in the future.
-
-## Hosting
-
-This site is hosted on a [Hetzner] server. The connection is encrypted with a TLS certificate. I created a [custom server configuration](/server/) that optimises sever performance by using [good caching defaults](https://web.dev/love-your-cache/) and file compression. Additionally, I configured the server to instruct browsers to send as little personal information as possible.
-
-The source code is open-source on [GitHub](https://github.com/tobiasschmidt89/tobiasschmidt.me). I use a custom [GitHub Action](https://github.com/tobiasschmidt89/tobiasschmidt.me/blob/main/.github/workflows/deploy-site.yml) to build and deploy the website on my Hetzner server whenever I push commits with a new tag. This allows me to decide when I want to actually update the site.
-
-_Please [let me know][Email] in case you have any questions about how I created this site to give you more details. Also in case you are interested in starting your own personal website, you can reach out to me in case you have some technical topics you need help with._
+> Last modified on {{< lastmod >}}
