@@ -3,7 +3,7 @@ title: Mahasemesta
 description: Let's hear me tell these journey.
 ---
 
-Hi, dear universe's fellow. Mahasemesta is a codename used to tell my spiritual stories, means the vastness of the universe.
+Hi, dear universe's fellow. Mahasemesta is a codename used to tell my spiritual stories, means the vastness of the universe. I used this as my son's name *Akasha Mahasemesta*, he is a symbol of my journey in finding the true nature of universe.
 
 ## [Blog](/blog)
 Story that might be known, journey through the game of universe :

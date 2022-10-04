@@ -114,3 +114,14 @@ audio {
 h2#blogblog > a:hover {
     border-bottom: 1px solid rgba(112, 112, 112, 0.933);
 }
+
+#book-shelf ~ ul > li {
+    margin-block-start: 10px;
+}
+
+#book-shelf ~ ul ::marker {
+    content: "📑 ";
+    font-size: 10px;
+    padding-inline-start: calc(var(--gap) / 2);
+    margin-inline-start: calc(var(--gap) * 0.5);
+}
