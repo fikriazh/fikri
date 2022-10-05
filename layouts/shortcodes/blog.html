@@ -1,5 +1,10 @@
 <nav>
     <div>
+        <a href="/blog/hello-world">
+            <span># Hello World !</span>
+            <hr>
+            <time>Now</time>
+        </a>
         {{- range first 3 (where .Site.RegularPages "Section" "=" "blog") -}}
         <a href="{{ .Permalink }}">
             <span>{{ .Title }}</span>
