@@ -1,7 +1,7 @@
 ---
-title: Hello World !
+title: Hello Universe
 description: Following the tradition of development tutorials I am today launching 🎉 my new blog with a hello world post. Its not perfect, its not finished, and it will have issues, but its live!
-date: 2020-01-01
+layout: hello
 ---
 
 Hi and thanks for checking by 👋

@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+<article>
+
+    <header>
+        <h1><a href="/" title="Go to homepage">{{ .Title }}</a></h1>
+        <p>{{ .Params.Date.Format "Monday, 2 January 2006" | default "In the beginning, there were ..." }}</p>
+    </header>
+
+    <blockquote>
+        <p>{{ .Params.description }}</p>
+    </blockquote>
+    
+    <section>
+    {{ .Content }}
+    </section>
+
+</article>
+
+{{ end }}
+
+{{ define "footer" }}
+
+    <footer>
+        
+        <a href="#" rel="next">Go to Top</a>
+        <a href="/" rel="prev">Homepage</a>
+
+    </footer>    
+
+{{ end }}
