@@ -27,5 +27,3 @@ If github repo detect any commit and push etiher from local cloned repo or from 
 ## Epilog
 
 Thanks for so far reading until this end section, hope you get much of knowledge and information from my own perspective. Keep finding the truth, the system works behind this dimensional barrier. As we will keep evolving to *Homo Deus*, the human with 100% DNA function as our creator Enki Anunnaki imprint to us.
-
-> Last modified on {{< lastmod >}}

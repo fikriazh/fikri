@@ -7,14 +7,14 @@
         <p>{{ .Params.Date.Format "Monday, 2 January 2006" | default "In the beginning, there were ..." }}</p>
     </header>
 
-    <blockquote>
-        <p>{{ .Params.description }}</p>
-    </blockquote>
+    <blockquote><p>{{ .Params.description }}</p></blockquote>
     
     <section>
     {{ .Content }}
-    </section>
 
+    <blockquote>Last update on {{ $.Page.Lastmod.Format "Monday, 2 January 2006"}}</blockquote>
+    </section>
+ 
 </article>
 
 {{ end }}

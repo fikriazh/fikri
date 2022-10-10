@@ -85,7 +85,3 @@ layout: page
 - The Anunnaki Connection: Sumerian Gods, Alien DNA, and the Fate of Humanity, Heather Lynn
 - Junk DNA: A Journey Through the Dark Matter of the Genome, Nessa Carey
 - The Emerald Tablets of Thoth the Atlantean, Michael Doreal
-
-
-
-> Last edited on {{< lastmod >}}
