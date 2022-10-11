@@ -128,6 +128,7 @@ h2#blogblog > a:hover {
 
 video {
     border-radius: 8px;
+    margin: 0 auto;
 }
 
 video ~ figcaption {
