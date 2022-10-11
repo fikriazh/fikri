@@ -6,7 +6,7 @@ layout: page
 
 My name is Fikri Azhar Novianto and this is my personal website. I use it to share personal thoughts, document what I learned, plant some digital seeds, and host some unique content I want to share for particular reasons. Even so, I tend to write about my profession I try to keep the tone personal on this site.
 
-{{< figure "/image/selfies.jpg" "It's me on the Cemara oil-field (Indramayu - West Java - ID ), taken on 23 May 2022. It's such a great opportunity to be part of this drilling operational team." >}}
+![Selfie in front of drilling oil-rig](/image/selfies.jpg "It's me on the Cemara oil-field (Indramayu - West Java - ID ), taken on 23 May 2022. It's such a great opportunity to be part of this drilling operational team.")
 
 I was born on Pangandaran (West Java - ID) on Wednesday, 30<sup>th</sup> November 1994 at 08.15 AM UTC+7. Short story, I continue studying bachelor degree in UPN Veteran Yogyakarta at Geological Engineering department. Now, I'm working as a drillinjg fluid engineer in oil & gas industry. Enough for the brief autobiography, the details can be find in blog post.
 
