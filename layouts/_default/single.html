@@ -25,17 +25,17 @@
 
         <footer>
             
-            {{ with .NextInSection }}
-                <div>
-                    <p>‹ Newer</p>
-                    <a href="{{ .Permalink }}" rel="next">{{ .Title }}</a>
-                </div>
+            {{ with .PrevInSection }}
+            <div>
+                <p>‹ Older</p>
+                <a href="{{ .Permalink }}" rel="prev">{{ .Title }}</a>
+            </div>
             {{ end }}
 
-            {{ with .PrevInSection }}
+            {{ with .NextInSection }}
                 <div>
-                    <p>Older ›</p>
-                    <a href="{{ .Permalink }}" rel="prev">{{ .Title }}</a>
+                    <p>Newer ›</p>
+                    <a href="{{ .Permalink }}" rel="next">{{ .Title }}</a>
                 </div>
             {{ end }}
 

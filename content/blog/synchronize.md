@@ -1,7 +1,7 @@
 ---
-title: Code 114
+title: Synchronize
 description: Synchronizing code pattern 114 from higher realm or merely our natural projection ability?
-date: 2022-10-12
+date: 2022-10-11
 ---
 
 Is this universe mere abstract of anything without any rule from higher entities? Or does it have set of ruler (heavenly government?) that orchestrate all aspect of our physical dimension on earth?
@@ -12,4 +12,4 @@ This software system will be called "consciousness". Shortly, our consciousness 
 
 Connectedness between two realm is called "synchronization", a continuos streaming process from universal server to send and receive such data. With average low consciousness level in current population of *homo sapiens*, it's too hard to comprehend this concept, isn't it? As time (incarnation) and our level of consciousness is progressively increasing, we will gradually feel this synchronizing energies in various way.
 
-`photos of 114`
+One pattern that always shows to me is code 114. This phenomena is one example of synchronization from higher realm to our physical realm. More details about code 114 can be read at [Code 114](/blog/114).
