@@ -27,14 +27,14 @@
             
             {{ with .NextInSection }}
                 <div>
-                    <p>‹ Previous</p>
+                    <p>‹ Newer</p>
                     <a href="{{ .Permalink }}" rel="next">{{ .Title }}</a>
                 </div>
             {{ end }}
 
             {{ with .PrevInSection }}
                 <div>
-                    <p>Next ›</p>
+                    <p>Older ›</p>
                     <a href="{{ .Permalink }}" rel="prev">{{ .Title }}</a>
                 </div>
             {{ end }}
