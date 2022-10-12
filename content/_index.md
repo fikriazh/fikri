@@ -1,6 +1,6 @@
 ---
 title: Mahasemesta
-description: Let's hear me tell these journey.
+description: Let's hear me tell these journey
 ---
 
 Hi, fellow universe. Mahasemesta (vastness of the universe) is a codename used to tell my spiritual stories. I used this as my son's name *Akasha Mahasemesta*, a symbol of a journey in finding the true nature of universe.

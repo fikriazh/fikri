@@ -24,19 +24,19 @@
     {{- if or .PrevInSection .NextInSection -}}
 
         <footer>
+
+            {{ with .NextInSection }}
+            <div>
+                <p>‹ Newer</p>
+                <a href="{{ .Permalink }}" rel="next">{{ .Title }}</a>
+            </div>
+            {{ end }}
             
             {{ with .PrevInSection }}
             <div>
-                <p>‹ Older</p>
+                <p>Older ›</p>
                 <a href="{{ .Permalink }}" rel="prev">{{ .Title }}</a>
             </div>
-            {{ end }}
-
-            {{ with .NextInSection }}
-                <div>
-                    <p>Newer ›</p>
-                    <a href="{{ .Permalink }}" rel="next">{{ .Title }}</a>
-                </div>
             {{ end }}
 
         </footer>
