@@ -12,7 +12,7 @@
     <section>
     {{ .Content }}
 
-    <blockquote>Last update on {{ $.Page.Lastmod.Format "Monday, 2 January 2006"}}</blockquote>
+    <blockquote>Last update on {{ $.Page.Lastmod.Format "Monday, 2 January 2006"}} by {{ .Site.Params.author }}</blockquote>
     </section>
  
 </article>

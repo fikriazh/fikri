@@ -22,9 +22,9 @@ Framework in this website uses [Hugo](https://gohugo.io/) with design from [Tobi
 
 Data is stored on [Github](https://github.com/fikriazh/fikri) repo and connected to [Cloudflare Pages](https://pages.cloudflare.com/) as hugo deployment and processing to static site and free sub-domain [fikri.pages.dev](/) from Cloudflare Pages as it's offer free HTTPS access. This site also connected to cloud CMS using [Forestry.io](https://forestry.io/).
 
-My workflow in this site : Input writing on local cloned repo, edit my markdown content file with VS Code editor and push the commit directly to github. Another workflow is through smartphone with cloud forestry.io cloud CMS. I use this methode usually when in remote and unable to acces notebook. Forestry.io will monitor the changes and automatically push to github. I usually write and arrange the content on smartphone notes first then paste to forestry.io CMS.
+My workflow in this site : Input writing on local cloned repo, edit my markdown content file with VS Code editor and push the commit directly to github. Another workflow is through smartphone with cloud forestry.io cloud CMS. I use this methode usually when in remote and unable to access notebook. Forestry.io will monitor the changes and automatically push to github. I usually write and arrange the content on smartphone notes first then paste to forestry.io CMS.
 
-If github repo detect any commit and push etiher from local cloned repo or from forestry.io, it will trigger deployment on Cloudflare Pages server and create static site to be served to fikri.pages.dev domain. This simplistic and automatic workflow makes me focus on content-making rather than thinking the tech bla bla bla behind the scene.
+If github repo detect any commit and push either from local cloned repo or from forestry.io, it will trigger deployment on Cloudflare Pages server and create static site to be served to fikri.pages.dev domain. This simplistic and automatic workflow makes me focus on content-making rather than thinking the tech bla bla bla behind the scene.
 
 I use tiny netbook with Zorin operation system (lightweight linux OS based form Ubuntu). It's comfort enough to handle my writing, both in blog making and professional reporting. As a remote engineer, it is kind of a wise to carry minimal setup in the midst of forest.
 
